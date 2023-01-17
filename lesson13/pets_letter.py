@@ -1,4 +1,4 @@
-def pets_begin_d(pets):
+def pets_begin_d(pets, letter):
     """
     a function that returns pets in a list
     (list given as the argument) that begin with a 'd'.
@@ -11,6 +11,6 @@ def pets_begin_d(pets):
     """
     res = []
     for name in pets:
-        if name[0] == 'd':
+        if name[0] == 'letter':
             res.append(name)
     return res
